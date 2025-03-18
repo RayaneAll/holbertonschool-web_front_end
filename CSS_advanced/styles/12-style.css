@@ -192,3 +192,21 @@ a {
     font-weight: var(--font-weight-bold);
 }
 
+/* 12-style.css - Styling section titles */
+
+/* Define custom properties */
+:root {
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
+}
+
+/* Style section titles */
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
+}
+
+/* Keep previous section-tagline styling */
