@@ -99,7 +99,7 @@
         box-sizing: border-box;
     }
 
-    .container {
-        width: 960px;
-        margin: 0 auto; /* Center the container horizontally */
-    }
+.container {
+    width: 960px;
+    margin: 0 auto; /* Center the container horizontally */
+}
